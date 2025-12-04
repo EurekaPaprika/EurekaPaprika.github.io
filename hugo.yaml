@@ -1,0 +1,9 @@
+baseURL: "https://eurekapaprika.github.io/"
+languageCode: zh-cn
+title: "刺猬海峡"
+theme: PaperMod
+
+params:
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
