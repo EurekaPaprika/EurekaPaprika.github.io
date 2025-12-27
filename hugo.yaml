@@ -2,6 +2,7 @@ baseURL: "https://eurekapaprika.github.io/"
 languageCode: zh-cn
 title: "刺猬海峡"
 theme: PaperMod
+hasCJKLanguage: true
 
 params:
   # 主页信息
