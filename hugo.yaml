@@ -4,6 +4,34 @@ title: "刺猬海峡"
 theme: PaperMod
 
 params:
+  # 主页信息
+  homeInfoParams:
+    Title: "无名旅者的记事本"
+    Content: "文学评论 · 游戏玩后感 · 随想"
+  
+  # 显示选项
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false  
   ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  
+  # 外观
+  defaultTheme: auto  # auto/light/dark
+  disableThemeToggle: false
+  
+
+
+# 菜单
+menu:
+  main:
+    - name: 归档
+      url: /archives/
+      weight: 10
+    - name: 标签
+      url: /tags/
+      weight: 20
+    - name: 搜索
+      url: /search/
+      weight: 30
